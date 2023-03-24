@@ -9,7 +9,7 @@ var Details = function() {
 
         var form = $('#details-form');
         var rules = {
-            phoneno: { required: true, minlength: 10, maxlength: 10 },
+            phoneno: { required: true},
             email: { required: true, email: true },
             address_line1: { required: true },
             address_line2: { required: true },

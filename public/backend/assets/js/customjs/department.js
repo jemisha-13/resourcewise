@@ -5,7 +5,7 @@ var Department = function() {
 
         var form = $('#add-department-form');
         var rules = {
-            phoneno: { required: true, minlength: 10, maxlength: 10 },
+            phoneno: { required: true},
             email: { required: true, email: true },
             line1: { required: true },
             line2: { required: true },
