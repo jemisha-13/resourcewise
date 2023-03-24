@@ -15,10 +15,10 @@ class AdminSeeder extends Seeder
     public function run()
     {
         DB::table('users')->insert([
-            'firstname' => "Maxthon",
+            'firstname' => "Resourcewise",
             'lastname' => "Technologies",
-            'email' => "maxthon@admin.com",
-            'password' => Hash::make('Maxthon@123'),
+            'email' => "Resourcewise@admin.com",
+            'password' => Hash::make('Resourcewise@123'),
             'userimage' => 'default.jpg',
             'usertype' => 'A',
             'is_deleted' => "N",

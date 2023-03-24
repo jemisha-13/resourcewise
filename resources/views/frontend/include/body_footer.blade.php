@@ -22,7 +22,7 @@
                     {{  $logodetails[0]->address_line2 }}</p>
                 <ul class="contact">
                     <li><a href="mailto:{{  $logodetails[0]->email }}">{{  $logodetails[0]->email }}</a></li>
-                    <li><a href="tel:{{  $logodetails[0]->phoneno }}">+91 {{  $logodetails[0]->phoneno }}</a></li>
+                    <li><a href="tel:{{  $logodetails[0]->phoneno }}"> {{  $logodetails[0]->phoneno }}</a></li>
                 </ul>
              
                     <ul class="footer-social">

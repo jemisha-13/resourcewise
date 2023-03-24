@@ -18,7 +18,7 @@ class EmployeeSeeder extends Seeder
             'firstname' => "Employee",
             'lastname' => "Panel",
             'email' => "employee@admin.com",
-            'password' => Hash::make('Maxthon_emp@123'),
+            'password' => Hash::make('Resourcewise_emp@123'),
             'userimage' => 'default.jpg',
             'usertype' => 'U',
             'is_deleted' => "N",

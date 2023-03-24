@@ -57,7 +57,7 @@ function AmountInWords(float $amount)
                   <td width="50%" align="left" style="padding:4px;margin:0px">
                     <span>Name &amp; Address of Establishment</span>
                     <br>
-                    <span style="font-weight:bold">Maxthon Technologies</span>
+                    <span style="font-weight:bold">Resourcewise Technologies</span>
                     <br>
                     <span style="font-size:10px">226, SilverStone Arcade, Near D'Mart, Causeway Road, Katargam, Surat - 395004</span>
                 </td>

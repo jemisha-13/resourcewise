@@ -13,7 +13,7 @@ class Sendmail extends Model
 {
     public function sendMailltesting(){
         $mailData['data']='';
-        $mailData['subject'] = 'Maxthon - Testing Mail';
+        $mailData['subject'] = 'Resourcewise - Testing Mail';
         $mailData['attachment'] = array();
         $mailData['template'] ="emailsTemplate.carrer";
         $mailData['mailto'] = 'parthkhunt12@gmail.com';
@@ -55,8 +55,8 @@ class Sendmail extends Model
     {
                 $pathToFile = $mailData['attachment'];
                 $mailsend = Mail::send($mailData['template'], ['data' => $mailData['data']], function ($m) use ($mailData,$pathToFile) {
-                    $m->from('parthkhunt37@gmail.com', 'Maxthon Technologies');
-                    $m->to($mailData['mailto'], "Maxthon Technologies")->subject($mailData['subject']);
+                    $m->from('parthkhunt37@gmail.com', 'Resourcewise Technologies');
+                    $m->to($mailData['mailto'], "Resourcewise Technologies")->subject($mailData['subject']);
 
                     if($pathToFile != ""){
                         // $m->attach($pathToFile);

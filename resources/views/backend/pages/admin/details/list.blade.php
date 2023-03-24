@@ -22,11 +22,11 @@
                         <div class="form-group ">
                             <label class="col-form-label ">Phone Number
                             <span class="text-danger">*</span></label>
-                            <input type="text" class="form-control onlyNumber" id="phoneno" name="phoneno"  value="{{ $details[0]->phoneno }}"/>
+                            <input type="text" class="form-control" id="phoneno" name="phoneno"  value="{{ $details[0]->phoneno }}"/>
                         </div>
                         <div class="form-group ">
                             <label class="col-form-label ">Phone Number 2 (optional)</label>
-                            <input type="text" class="form-control onlyNumber" id="phoneno2" name="phoneno2"  value="{{ $details[0]->phoneno2 }}"/>
+                            <input type="text" class="form-control" id="phoneno2" name="phoneno2"  value="{{ $details[0]->phoneno2 }}"/>
                         </div>
 
                         <div class="form-group ">

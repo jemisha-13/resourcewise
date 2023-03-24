@@ -38,7 +38,7 @@
                         <div class="form-group ">
                             <label class="col-form-label ">Phone Number
                             <span class="text-danger">*</span></label>
-                            <input type="text" class="form-control onlyNumber" id="phoneno" name="phoneno"  value="{{ $details[0]->phoneno }}"/>
+                            <input type="text" class="form-control" id="phoneno" name="phoneno"  value="{{ $details[0]->phoneno }}"/>
                         </div>
 
                     </div>
