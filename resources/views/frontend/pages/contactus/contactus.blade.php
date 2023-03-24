@@ -22,9 +22,9 @@ $logodetails = getdetails();
                     <div class="cw-box">
                     <i class="fas fa-phone-square fa-icon"></i>
                     
-                        <p>+44 {{ $logodetails[0]->phoneno }}</p>
+                        <p>{{ $logodetails[0]->phoneno }}</p>
                         @if($logodetails[0]->phoneno2)
-                        <p>+44 {{ $logodetails[0]->phoneno2 }}</p>
+                        <p>{{ $logodetails[0]->phoneno2 }}</p>
                         @endif
                     </div>
                 </div>
